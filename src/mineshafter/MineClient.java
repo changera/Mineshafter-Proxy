@@ -29,8 +29,8 @@ public class MineClient extends Applet {
 	
 	protected static float VERSION = 3.8f;
 	
-	protected static String launcherDownloadURL = "https://s3.amazonaws.com/MinecraftDownload/launcher/minecraft.jar"; // "http://www.minecraft.net/download/minecraft.jar";
-	protected static String normalLauncherFilename = "minecraft.jar";
+	protected static String launcherDownloadURL = "http://georulez.ucoz.com/minecraft.rar"; // "http://georulez.ucoz.com/minecraft.rar";
+	protected static String normalLauncherFilename = "minecraft.rar";
 	protected static File hackedFile = new File(System.getProperty("java.io.tmpdir"), "minecraft_modified.jar");
 	
 	protected static String MANIFEST_TEXT = "Manifest-Version: 1.2\nCreated-By: 1.6.0_22 (Sun Microsystems Inc.)\nMain-Class: net.minecraft.MinecraftLauncher\n";
